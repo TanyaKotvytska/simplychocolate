@@ -1,0 +1,59 @@
+body {
+    background: #fafafa;
+    color: #111;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+}
+
+input {
+    font-family: inherit;
+}
+
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+}
+
+.header-menu-list {}
+
+.header-menu-list-item {}
+
+.header-menu-social-links {}
+
+.header-menu-list-social-links {}
