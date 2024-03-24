@@ -50,9 +50,17 @@ input {
 
 .header {}
 
-.header-container {}
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
-.header-navigation {}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
 
 .header-logo { 
     font-weight: 700;
@@ -60,15 +68,22 @@ input {
     line-height: 1.2;
     letter-spacing: -0.03em;
     color: #111;
+    display: flex;
+    align-items: center;
+    margin-right: 413px;
 }
 
 .header-logo-span {
     font-style: italic;
 }
 
-.header-menu-list {}
+.header-menu-list {
+    display: flex;
+    gap: 24px;
+}
 
-.header-menu-list-item {}
+.header-menu-list-item {
+}
 
 .header-menu-list-link {
     font-weight: 500;
@@ -76,9 +91,15 @@ input {
     line-height: 1.15;
     letter-spacing: -0.02em;
     color: #111;
+    padding: 4px 0;
 }
 
-.header-menu-social-links {}
+.header-menu-social-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 90px;
+}
 
 .header-menu-list-social-links {}
 
