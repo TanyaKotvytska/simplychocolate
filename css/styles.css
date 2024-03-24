@@ -1,6 +1,5 @@
 body {
     background: #fafafa;
-    color: #111;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -43,17 +42,90 @@ input {
     font-family: inherit;
 }
 
+.container {
+    width: 1166px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .header {}
+
+.header-container {}
 
 .header-navigation {}
 
-.header-logo {
+.header-logo { 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-logo-span {
+    font-style: italic;
 }
 
 .header-menu-list {}
 
 .header-menu-list-item {}
 
+.header-menu-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
 .header-menu-social-links {}
 
 .header-menu-list-social-links {}
+
+.hero {}
+
+.hero-container{}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-made-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-down-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.benefits-title {}
+
+.benefits-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
