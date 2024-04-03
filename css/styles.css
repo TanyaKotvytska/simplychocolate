@@ -44,9 +44,64 @@ input {
 
 .container {
     max-width: 320px;
-    padding: 0 15px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 /** ==============HEADER================ */
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-logo-span {
+    font-style: italic;
+}
+
+.header-menu-list {
+    display: none;
+}
+
+.header-menu-social-links {
+    display: none;
+}
+
+.header-menu-btn {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 0;
+    border: none;
+}
+
+/** ============================== */
+
+/** ==============FIRST SECTION================ */
+
+.hero-container {
+   
+}
+
+.hero-title {
+
+}

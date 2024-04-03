@@ -47,5 +47,8 @@
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M2 16h28M2 6.667h28M2 25.333h28"/>
     </symbol>
+    <symbol id="icon-heroicons-solid_menu" viewBox="0 0 32 32">
+      <path d="M4.799 8.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6zM4.799 16.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6zM4.799 24.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6z"/>
+    </symbol>
   </defs>
 </svg>
