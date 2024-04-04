@@ -43,7 +43,7 @@ input {
 }
 
 .container {
-    max-width: 320px;
+    max-width: 375px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -98,10 +98,111 @@ input {
 
 /** ==============FIRST SECTION================ */
 
-.hero-container {
-   
+.hero-wrap {
+    width: 100%;
+    height: 621px;
+    padding: 395px 20px 20px 20px;
+    background: #1e1823;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/heromob@1x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
 }
 
 .hero-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+    margin-bottom: 32px;
+}
 
+.btn-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    row-gap: 32px;
+}
+
+.hero-btn {
+    border-radius: 100px;
+    padding: 12px 28px;
+    border: none;
+    cursor: pointer;
+    background: #fd9222;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #fcf1e0;
+    color: #fd9222;
+    border: none;
+}
+
+.hero-made-btn {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-made-btn:hover,
+.hero-made-btn:focus {
+    color: #fd9222;
+    border: 1px solid #fd9222;
+}
+
+.hero-down-btn-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    color: #fff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-down-btn-text:hover,
+.hero-down-btn-text:focus {
+    color: #fd9222;
+}
+
+.hero-down-btn {
+    border: none;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-down-btn-icon {
+    fill: #fd9222;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-down-btn:hover,
+.hero-down-btn:focus {
+    background-color: #fd9222;
+    border: none;
+}
+
+.hero-down-btn:hover>.hero-down-btn-icon,
+.hero-down-btn:focus>.hero-down-btn-icon {
+    fill: #fff;
 }
