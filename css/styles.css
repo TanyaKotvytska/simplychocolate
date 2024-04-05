@@ -48,6 +48,19 @@ input {
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /** ==============HEADER================ */
 
 .header-container {
@@ -109,6 +122,14 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 80px;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 375px),
+screen and (min-resolution: 192dpi) and (min-width: 375px),
+screen and (min-resolution: 2dppx) and (min-width: 375px) {
+    .hero-wrap {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/heromob@2x.jpg);
+    }
 }
 
 .hero-title {
@@ -205,4 +226,49 @@ input {
 .hero-down-btn:hover>.hero-down-btn-icon,
 .hero-down-btn:focus>.hero-down-btn-icon {
     fill: #fff;
+}
+
+/** ============================== */
+
+/** ==============BENEFITS SECTION================ */
+
+.benefits-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #1e1823;
+}
+
+.benefits-wrap {
+    padding: 0px 28px 0px 0px;
+    width: 336px;
+    margin-bottom: 20px;
+}
+
+.benefits-icon-wrap {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.benefits-icon {
+    fill: #fd9222;
+}
+
+.benefits-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
 }
