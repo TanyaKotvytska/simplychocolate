@@ -272,3 +272,36 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
 }
+
+/** ============================== */
+
+/** ==============TASTE SECTION================ */
+
+.taste-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.ingridients-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    max-width: 283px;
+    margin: 0 auto 27px;
+}
+
+.ingridients-part-title {
+    color: #fd9222;
+}
+
+.ingridients-text {
+    display: none;
+}
+
+.ingridients-list-image {
+    display: none;
+}
