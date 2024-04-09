@@ -298,6 +298,74 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     color: #fd9222;
 }
 
+.ingridients-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.choco-img-wrap {
+    position: relative;
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    background: #fd9222;
+    padding: 32px 28px;
+}
+
+.btn-ingridients {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #fafafa;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choco-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.milk-img-wrap {
+    border: 1px solid #fd9222;
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    background: #fff;
+}
+
+.nuts-img-wrap {
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    background: #1e1823;
+}
+
+.drops-img-wrap {
+    border: 1px solid #fd9222;
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    background: #fff;
+}
+
+.ingredients-item {
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+
 .ingridients-text {
     display: none;
 }
