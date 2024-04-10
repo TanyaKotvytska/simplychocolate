@@ -313,7 +313,7 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     padding: 32px 28px;
 }
 
-.btn-ingridients {
+.btn-choco {
     position: absolute;
     top: 14px;
     right: 14px;
@@ -338,26 +338,104 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
 }
 
 .milk-img-wrap {
+    position: relative;
     border: 1px solid #fd9222;
     border-radius: 15px;
     width: 335px;
     height: 270px;
     background: #fff;
+    padding: 32px 28px;
+}
+
+.btn-milk {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #fd9222;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.milk-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
 }
 
 .nuts-img-wrap {
+    position: relative;
     border-radius: 15px;
     width: 335px;
     height: 270px;
     background: #1e1823;
+    padding: 32px 28px;
+}
+
+.btn-nuts {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #fafafa;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuts-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .drops-img-wrap {
+    position: relative;
     border: 1px solid #fd9222;
     border-radius: 15px;
     width: 335px;
     height: 270px;
     background: #fff;
+    padding: 32px 28px;
+}
+
+.btn-drops {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #fd9222;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drops-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
 }
 
 .ingredients-item {

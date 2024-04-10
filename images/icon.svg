@@ -50,5 +50,8 @@
     <symbol id="icon-heroicons-solid_menu" viewBox="0 0 32 32">
       <path d="M4.799 8.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6zM4.799 16.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6zM4.799 24.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6z"/>
     </symbol>
+    <symbol id="icon-arrow" viewBox="0 0 48 32">
+      <path fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M3.428 16h41.143m-.001 0L34.284 5.714M44.57 16 34.284 26.286" style="stroke:var(--color1, #fafafa)"/>
+    </symbol>
   </defs>
 </svg>
