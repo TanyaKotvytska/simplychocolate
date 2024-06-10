@@ -451,3 +451,27 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
 .ingridients-list-image {
     display: none;
 }
+
+
+.gallery {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 20px;
+    padding: 100px 156px;
+    width: 1440px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-image {
+    display: flex;
+    width: 360px;
+    height: 200px;
+}
