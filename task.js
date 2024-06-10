@@ -65,39 +65,72 @@ const images = [
 ];
 
 
-const listGallery = document.querySelector(".gallery");
-const listElements = images.map(image => {
-  const galleryItem = document.createElement('li');
-  galleryItem.classList.add('gallery-item');
+// const listGallery = document.querySelector(".gallery");
+// const listElements = images.map(image => {
+//   const galleryItem = document.createElement('li');
+//   galleryItem.classList.add('gallery-item');
   
-  const link = document.createElement('a');
-  link.classList.add('gallery-link');
-  link.href = image.original;
-  link.setAttribute('download', '');
+//   const link = document.createElement('a');
+//   link.classList.add('gallery-link');
+//   link.href = image.original;
+//   link.setAttribute('download', '');
 
-  const img = document.createElement('img');
-  img.classList.add('gallery-image');
-  img.src = image.preview;
-  img.setAttribute('data-source', image.original);
-  img.alt = image.description;
+//   const img = document.createElement('img');
+//   img.classList.add('gallery-image');
+//   img.src = image.preview;
+//   img.setAttribute('data-source', image.original);
+//   img.alt = image.description;
 
-  link.appendChild(img);
-  galleryItem.appendChild(link);
+//   link.appendChild(img);
+//   galleryItem.appendChild(link);
 
-  return galleryItem;
-});
+//   return galleryItem;
+// });
 
-listGallery.append(...listElements);
+// listGallery.append(...listElements);
 
-listGallery.addEventListener('click', function(event) {
-  event.preventDefault();
+// listGallery.addEventListener('click', function(event) {
+//   event.preventDefault();
   
-  const target = event.target;
+//   const target = event.target;
  
-  if(target.classList.contains('gallery-image')) {
-    const largeImageSrc = target.dataset.source;
-    console.log(largeImageSrc);
-  }
-});
+//   if(target.classList.contains('gallery-image')) {
+//     const largeImageSrc = target.dataset.source;
+//     console.log(largeImageSrc);
+//   }
+// });
 
+ 
+        const galleryRef = document.querySelector('.gallery');
 
+        const galleryItems = images.map(image => {
+          return `
+            <li class="gallery-item">
+              <a class="gallery-link" href="${image.original}">
+                <img
+                  class="gallery-image"
+                  src="${image.preview}"
+                  data-source="${image.original}"
+                  alt="${image.description}"
+                />
+              </a>
+            </li>
+          `;
+        });
+
+        galleryRef.innerHTML = galleryItems.join('');
+
+        galleryRef.addEventListener('click', event => {
+          event.preventDefault();
+
+          const isGalleryImages = event.target.classList.contains('gallery-image');
+          if (!isGalleryImages) return;
+
+          const largeImageSrc = event.target.dataset.source;
+
+          const instance = basicLightbox.create(`
+            <img src="${largeImageSrc}" width="800" height="600">
+          `);
+
+          instance.show();
+        });
